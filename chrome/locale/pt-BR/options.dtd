@@ -1,0 +1,19 @@
+<!ENTITY panelSize.widthTitle   "Largura do painel:">
+<!ENTITY panelSize.widthDesc    "Porcentagem da largura da janela disponível para o painel.">
+<!ENTITY panelSize.heightTitle  "Altura do painel:">
+<!ENTITY panelSize.heightDesc   "Porcentagem da altura da janela disponível para o painel.">
+<!ENTITY delayFirstRun.title    "Atrasar o primeiro carregamento do painel:">
+<!ENTITY delayFirstRun.desc     "Atraso em segundos. Isto faz o Firefox inicializar mais rápido.">
+
+<!ENTITY refreshTime.title "Atualizar o ícone a cada:">
+<!ENTITY refreshTime.desc "Tempo em minutos.">
+
+<!ENTITY vk_panelToolbar.noautohide.title       "Fixar o painel">
+<!ENTITY vk_panelToolbar.toolbarAutoHide.title  "Ocultar automaticamente a barra de ferramentas">
+
+<!ENTITY shortcut.modifiers.title "Modificadores">
+<!ENTITY shortcut.modifiers.desc  "No Mac Ctrl = Cmd">
+<!ENTITY shortcut.key.title       "Tecla">
+<!ENTITY shortcut.key.desc        "Insira apenas um caractere. Se você inserir mais de um, apenas o primeiro será usado.">
+<!ENTITY shortcut.button.title    "Para a mudança de atalho ter efeito, você deve reiniciar o Firefox">
+<!ENTITY shortcut.button.label    "Reiniciar agora!">

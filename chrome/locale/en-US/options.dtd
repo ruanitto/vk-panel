@@ -1,0 +1,19 @@
+<!ENTITY panelSize.widthTitle   "Panel width:">
+<!ENTITY panelSize.widthDesc    "Percentage of the window's available width.">
+<!ENTITY panelSize.heightTitle  "Panel height:">
+<!ENTITY panelSize.heightDesc   "Percentage of the window's available height.">
+<!ENTITY delayFirstRun.title    "Delay first panel load for:">
+<!ENTITY delayFirstRun.desc     "Delay in seconds. This makes Firefox start faster.">
+
+<!ENTITY refreshTime.title "Refresh the icon every:">
+<!ENTITY refreshTime.desc "Time in minutes.">
+
+<!ENTITY vk_panelToolbar.noautohide.title       "Pin the panel">
+<!ENTITY vk_panelToolbar.toolbarAutoHide.title  "Autohide the toolbar">
+
+<!ENTITY shortcut.modifiers.title "Modifiers">
+<!ENTITY shortcut.modifiers.desc  "In Mac Ctrl = Cmd">
+<!ENTITY shortcut.key.title       "Key">
+<!ENTITY shortcut.key.desc        "Enter only one character. If you enter more than one, only the first is used.">
+<!ENTITY shortcut.button.title    "To take effect the shortcut change, you must restart Firefox">
+<!ENTITY shortcut.button.label    "Restart now!">

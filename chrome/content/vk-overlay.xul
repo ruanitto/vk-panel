@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://vk_panel/content/fb-overlay.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://vk_panel/locale/overlay.dtd">
+
+<overlay  id="vk_panel-overlay"
+          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script src="fb-overlay.js"/>
+
+   <keyset id="mainKeyset">
+    <key id="vk_panel-shortcut_cmd" modifiers="" key="" oncommand="vk_panel.BrowserOverlay.vk_panelShortcut_cmd();"/>
+   </keyset>
+
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton
+			id="vk_panel-toolbar-button"
+			class="toolbarbutton-1 chromeclass-toolbar-additional"
+			label="&vk_panelToolbarButton.label;"
+			tooltiptext="&vk_panelToolbarButton.tooltip;"
+			popup="vk_panel-panel"
+			>
+		</toolbarbutton>
+	</toolbarpalette>
+
+	<popupset>
+    <panel
+				id="vk_panel-panel"
+				backdrag="true"
+				type="arrow"
+				onpopupshowing="vk_panel.BrowserOverlay.openfacebookPanel();"
+        onpopuphiding="vk_panel.BrowserOverlay.closefacebookPanel();"
+        noautohide="false"
+        onpopupshown="document.getElementById('vk_panel-iframe').focus();"
+				>
+        <vbox flex="1">
+          <hbox id="vk_panel-panel-toolbar" class="">
+            <toolbarbutton id="vk_panel-toolbarButton_autoHide"
+              class="vk_panel-toolbarbutton-class"
+              oncommand="vk_panel.BrowserOverlay.changeAutoHideMode();"
+              type="checkbox"
+              tooltiptext="&vk_panelToolbar.autohide;"/>
+            <toolbarbutton id="vk_panel-toolbarButton_pin"
+              class="vk_panel-toolbarbutton-class"
+              oncommand="vk_panel.BrowserOverlay.changePinMode();"
+              type="checkbox"
+              tooltiptext="&vk_panelToolbar.pin;"/>
+            <toolbarbutton id="vk_panel-toolbarButton_reload"
+              class="vk_panel-toolbarbutton-class"
+              oncommand="vk_panel.BrowserOverlay.setfacebookIframe();"
+              tooltiptext="&vk_panelToolbar.reload;"/>
+            <toolbarspacer flex="2" />
+            <toolbarbutton id= "vk_panel-toolbarButton_close"
+              class="vk_panel-toolbarbutton-class"
+              oncommand="this.parentNode.parentNode.parentNode.hidePopup();"
+              tooltiptext="&vk_panelToolbar.close;"/>
+          </hbox>
+          <hbox id="vk_panel-panel-iframe" flex="1">
+            <browser id="vk_panel-iframe" type="content" src="chrome://vk_panel/content/fb-loading.xul" flex="2" container="true"/>
+          </hbox>
+        </vbox>
+		</panel>
+  </popupset>
+
+</overlay>

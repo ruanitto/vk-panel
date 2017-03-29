@@ -1,0 +1,6 @@
+<!ENTITY vk_panelToolbarButton.label    "VK Panel">
+<!ENTITY vk_panelToolbarButton.tooltip  "VK Panel">
+<!ENTITY vk_panelToolbar.reload         "Reload the panel">
+<!ENTITY vk_panelToolbar.autohide       "Show/Hide the toolbar">
+<!ENTITY vk_panelToolbar.pin            "Pin/Unpin the panel">
+<!ENTITY vk_panelToolbar.close          "Close the panel">

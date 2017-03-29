@@ -1,0 +1,6 @@
+content   vk_panel                 chrome/content/
+
+locale    vk_panel   en-US         chrome/locale/en-US/
+locale    vk_panel   pt-BR         chrome/locale/pt-BR/
+
+overlay	chrome://browser/content/browser.xul	chrome://vk_panel/content/vk-overlay.xul
