@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="chrome://vk_panel/content/fb-overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://vk_panel/content/vk-overlay.css" type="text/css"?>
 
 <!DOCTYPE overlay SYSTEM "chrome://vk_panel/locale/overlay.dtd">
 
 <overlay  id="vk_panel-overlay"
           xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-	<script src="fb-overlay.js"/>
+	<script src="vk-overlay.js"/>
 
    <keyset id="mainKeyset">
     <key id="vk_panel-shortcut_cmd" modifiers="" key="" oncommand="vk_panel.BrowserOverlay.vk_panelShortcut_cmd();"/>
@@ -56,7 +56,7 @@
               tooltiptext="&vk_panelToolbar.close;"/>
           </hbox>
           <hbox id="vk_panel-panel-iframe" flex="1">
-            <browser id="vk_panel-iframe" type="content" src="chrome://vk_panel/content/fb-loading.xul" flex="2" container="true"/>
+            <browser id="vk_panel-iframe" type="content" src="chrome://vk_panel/content/vk-loading.xul" flex="2" container="true"/>
           </hbox>
         </vbox>
 		</panel>
