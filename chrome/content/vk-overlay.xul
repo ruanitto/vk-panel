@@ -28,8 +28,8 @@
 				id="vk_panel-panel"
 				backdrag="true"
 				type="arrow"
-				onpopupshowing="vk_panel.BrowserOverlay.openfacebookPanel();"
-        onpopuphiding="vk_panel.BrowserOverlay.closefacebookPanel();"
+				onpopupshowing="vk_panel.BrowserOverlay.openvkPanel();"
+        onpopuphiding="vk_panel.BrowserOverlay.closevkPanel();"
         noautohide="false"
         onpopupshown="document.getElementById('vk_panel-iframe').focus();"
 				>

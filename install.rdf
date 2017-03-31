@@ -3,7 +3,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>vkpanel@rafaelgomes.com</em:id>
-    <em:version>0.1.2.3-signed</em:version>
+    <em:version>0.1.2.4-signed</em:version>
     <em:type>2</em:type>
 
     <em:targetApplication>
