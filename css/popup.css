@@ -1,0 +1,15 @@
+	body{
+		overflow:hidden;
+		min-width:500px;
+		min-height:600px;
+		padding:0;
+		margin:0;
+		border:none;		
+	}
+	iframe{
+		width: 780px;
+		height: 580px;
+		padding:0;
+		margin:0;
+		border:none;		
+	}

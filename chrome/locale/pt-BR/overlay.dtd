@@ -1,6 +1,0 @@
-<!ENTITY vk_panelToolbarButton.label    "Painel do VK">
-<!ENTITY vk_panelToolbarButton.tooltip  "Painel do VK">
-<!ENTITY vk_panelToolbar.reload         "Recarregar o painel">
-<!ENTITY vk_panelToolbar.autohide       "Show/Hide the toolbar">
-<!ENTITY vk_panelToolbar.pin            "Pin/Unpin the panel">
-<!ENTITY vk_panelToolbar.close          "Fechar o painel">
