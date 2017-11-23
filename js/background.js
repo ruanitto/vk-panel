@@ -10,7 +10,7 @@ var Ext={
 	gotBrowserInfo:function(info){
 	  Ext.version=info.version; 
 	  if(parseInt(Ext.version.split(".")[0])<57){
-		  chrome.tabs.executeScript(null,{code:'alert("Please use '+(Ext.os=="mac" ? Ext.mac : Ext.win)+' combination to open up Painel for VK.\\n\\nThis is a limitation for the current Firefox '+Ext.version+' and it will resolve itself for upcoming Firefox 57. Sorry for inconvenience!");'});
+		  chrome.tabs.executeScript(null,{code:'alert("Please use '+(Ext.os=="mac" ? Ext.mac : Ext.win)+' combination to open up Painel for Messenger.\\n\\nThis is a limitation for the current Firefox '+Ext.version+' and it will resolve itself for upcoming Firefox 57. Sorry for inconvenience!");'});
 	  }
 	}	
 }
